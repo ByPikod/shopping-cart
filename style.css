@@ -1,0 +1,20 @@
+#cart-content{
+    height: 250px;
+    overflow: auto;
+}
+
+.cart-item {
+    margin-top: 10px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 80% auto;
+}
+
+.cart-item > .item-text > .item-name {
+    display: block;
+}
+
+.cart-item > .item-text > .item-details {
+    display: block;
+    font-size: 0.6em;
+}
